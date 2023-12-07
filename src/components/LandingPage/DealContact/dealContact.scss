@@ -1,0 +1,157 @@
+#deal-contact-wrapper {
+
+
+    .deals-wrapper {
+        margin: 0 5.44rem 3.27rem 5.44rem;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-radius: 1.25rem;
+        position: relative;
+        z-index: 1;
+
+        @media (max-width:768px) {
+            flex-direction: column;
+            margin: 2rem;
+
+        }
+
+        @media (max-width:400px) {
+            margin: 2rem 1rem;
+
+        }
+
+
+        img {
+            padding-left: 5rem;
+
+            @media (max-width:991px) {
+                padding-left: 1rem;
+            }
+
+            @media (max-width:768px) {
+                padding: 0;
+                // width: 100%;
+                margin-bottom: -150px;
+            }
+
+            @media (max-width:400px) {
+                width: 60%;
+                margin-bottom: -100px;
+
+            }
+        }
+
+        .content {
+            position: absolute;
+            z-index: -1;
+            border-radius: 1.25rem;
+            background: #D6111E;
+            padding: 3.44rem 4.38rem 3.44rem 29rem;
+
+            @media (max-width:991px) {
+                padding: 3.44rem 2.38rem 3.44rem 22rem;
+            }
+
+            @media (max-width:768px) {
+                position: relative;
+                padding: 11rem 2rem 2rem 2rem;
+            }
+
+            @media (max-width:400px) {
+                padding: 8rem 1rem 2rem 1rem;
+
+
+            }
+
+            h2 {
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 1.5625rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                padding-bottom: 2.31rem;
+
+                @media (max-width:400px) {
+                    padding-bottom: 1rem;
+
+
+                }
+            }
+
+            p {
+                color: #FFF;
+                text-align: justify;
+                font-family: Roboto;
+                font-size: 1.125rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+
+            }
+        }
+
+    }
+
+    .contact-us {
+        padding: 1.81rem;
+        background: #5F050A;
+        display: flex;
+        justify-content: center;
+
+        @media (max-width:767px) {
+            display: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 1.5625rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-align: center;
+            // @media (max-width:400px) {
+            //     font-size: 1rem;
+            // }
+        }
+    }
+
+    .contact-us-mobile {
+        display: none;
+
+        @media (max-width:767px) {
+            padding: 1.81rem;
+            background: #5F050A;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            a {
+                text-decoration: none;
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 1.5625rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-align: center;
+
+                p{
+                    padding-top: 15px;
+                    font-size: 1.3rem;
+                }
+
+                @media (max-width:400px) {
+                    font-size: 1rem;
+
+
+
+                }
+            }
+        }
+    }
+}
